@@ -1,7 +1,7 @@
 # Portifólio Fabiano Ferreira
 
-1 - Um parágrafo descrevendo o projeto, aqui dá para colocar uma imagem ou logo! :) 🧑‍💻
-2- Coloque aqui o link do projeto em produção!
+1- Portifolio criado em mentoria no canal da Fernanda Kipper Dev ! :) 🧑‍💻
+2-  (https://portifolio-fabianoff.vercel.app/)
 
 
 ## 🛠️ Tecnologias & Libs
