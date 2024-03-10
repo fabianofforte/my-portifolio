@@ -16,7 +16,7 @@ export function Header(){
               src="/me.jpeg"
               alt="Vercel Logo"
               width={325}
-              height={310}
+              height={300}
               priority
             />
         

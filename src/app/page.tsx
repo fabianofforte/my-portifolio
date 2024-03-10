@@ -1,5 +1,8 @@
 import { Experience } from "./components/experience/experience";
 import { Header } from "./components/header/header";
+import { EmailIcon } from "./components/icons/email-icon";
+import { Info } from "./components/information/information";
+import { SocialBtns } from "./components/social-btns/social-btns";
 import "./styles/home.scss";
 
 export default function Home() {
@@ -7,29 +10,14 @@ export default function Home() {
     <main className="container">
       <Header />
       <Experience />
-        <div className="infos">
-          <h3>Idioma</h3>
-          <div className="languages-info">
-            <span>🇺🇸 EN - Estudando</span>
-            <span>🇧🇷 PT-BR - Nativo</span>
-          </div>
-          <h3>Formação</h3>
-          <div className="educacional-info">
-            <span>🎓</span>
-            <span>Engenharia de Software - Faculdade Anhanguera (1º Semestre)</span><br />
-            <span>🎓</span>
-            <span>Tecnico Eletrônica - Escola Parobé</span>
-          </div>
-        </div>
-
+      <Info />
         <div className="buttons">
-          <div className="social">
-
-          </div>
-          <button>contact me</button>
+          <SocialBtns />
+          <button className="btn-primary">
+            contact me
+            <EmailIcon />
+          </button>
         </div>
-
-      
     </main>
   );
 }
