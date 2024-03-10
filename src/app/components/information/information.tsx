@@ -8,14 +8,14 @@ interface InfoProps{
 export function Info(){
     return(
         <div className="infos">
-        <SectionTitle text="Languages" />
+        <SectionTitle text="Idiomas" />
         <div className="languages-info">
-          <span>🇺🇸 EN - Estudando</span>
+          <span>🇺🇸 EN - 📕 - Estudando</span>
           <span>🇧🇷 PT-BR - Nativo</span>
         </div>
-        <SectionTitle text="Education" />
+        <SectionTitle text="Formação" />
         <div className="educational-info">
-          <span>🎓</span>
+          <span>👨‍💻</span>
           <span>Engenharia de Software - Faculdade Anhanguera (1º Semestre)</span><br />
           <span>🎓</span>
           <span>Tecnico Eletrônica - Escola Parobé</span>
